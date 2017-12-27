@@ -1,0 +1,10 @@
+---
+- hosts: all
+  tasks:
+  - debug: msg="complete me"
+  
+  - name: 1. Install Latest Version HTTP/Apache RPMs
+    yum: name=httpd state=present
+
+  - name: 5. start httpd service 
+    service: name=httpd state=started enabled=yes 
