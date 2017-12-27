@@ -1,9 +1,0 @@
----
-- name: creating a tar file 
-  shell: tar -zcvf /home/lbandla4204/interview_homework.tgz /home/lbandla4204/interview_homework
-
-#- name: Simple GET operation
-#  s3:
-#    bucket: 
-#    object:
-#    src: 
